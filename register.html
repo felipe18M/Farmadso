@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <main class="registro">
+        <header id="title">
+            <a href="index.html"> <i class="fa-solid fa-arrow-left-long"></i></a>
+            <h1>REGISTRO FARMADSO</h1>
+        </header>
+        <div id="dataname">
+            <div class="name">
+                <h4>nombre </h4>
+                <input type="text" ">
+               
+            </div>
+            <div class="name">
+                <h4>apellidos</h4>
+                <input type="text" id="nameee" >
+            </div>
+        </div>
+        <div id="document">
+            <h4>documento</h4>
+            <div class="typedoc">
+                <select name="" class="typedc">
+                    <option value="">cc</option>
+                    <option value="">ti</option>
+                    <option value="">ce</option>
+                    <option value="">passport</option>
+                    <option value="">registro civil</option>
+                    <option value="">otro</option>
+
+                </select>
+                <div class="numberdoc">
+                    <input type="text" class="numberdoc">
+                </div>
+            </div>
+        </div>
+        <article class="datedata">
+            <div id="date">
+                <h4>fecha de expedicion</h4>
+                <input type="date" class="fecha">
+
+            </div>
+            <div id="date">
+                <h4>fecha de nacimiento</h4>
+                <input type="date" class="fecha">
+
+            </div>
+        </article>
+        <div id="eps">
+            <h4>eps que pertenece</h4>
+            <select name="eps" id="typeeps" placeholder="">
+                <option value="">sanitas</option>
+                <option value="">asmet salud</option>
+                <option value="">cafesalud</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <p id="active">  
+                <legend>si no pertenece a ninguna EPS marque esta casilla</legend>
+                <input type="radio" name="estado" value="activo" id="active" >
+    
+            </p>
+        </div>
+        <a href="">
+            <p> para conocer su EPS</p>
+        </a>
+
+        <div class="registrobutton">
+            <button type="button" id="button">
+                <h3>register</h3>
+            </button>
+        </div>
+
+    </main>
+    <script src="iconos.js"></script>
+</body>
+</html>
