@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+
+/*contenedor principal*/
+.registro{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color:  #ffffff57;
+    text-transform: capitalize;
+    gap: 1em;
+    border: 2px solid #33a892;
+    width: 90%;
+    
+    
+}
+input{
+    height: 2em;
+}
+#title{
+    display: flex;
+    background-color: #22a374;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+.fa-arrow-left-long{
+    position: absolute;
+    left: 1%;
+    color: #fff;
+    font-size: 1.5em;
+}
+#dataname{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+.name{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 3em;
+    
+}
+#nameee{
+width: 100%;
+}
+
+
+
+#document{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5em;
+
+}
+.typedoc{
+    display: flex;
+    gap: 0.5em;
+}
+
+.typedc{
+    display: flex;
+    text-transform: uppercase;
+}
+.numberdoc{
+    display: flex;
+    flex: 1;
+}
+
+.datedata{
+    display: flex;
+    gap: 1em;
+    flex: 1;
+}
+
+#date{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+.fecha{
+    height: 2em;
+}
+#eps{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1REM;
+}
+
+#active{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.registrobutton{
+    display: flex;
+    flex: 1;
+}
+#button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #6d93c9;
+    border: 0;
+    height: 3rem;
+    color: #fff;
+    
+}
+#typeeps{
+    height: 3em;
+}
+@media (max-width: 400px) {
+    #title{
+        text-align: center;
+        display: flex;        
+    }
+    .fa-arrow-left-long{
+        align-self: center;
+        top: 40%;
+    }
+}
