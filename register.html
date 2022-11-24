@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="stylesheet" href="register.css">
+    <script src="https://kit.fontawesome.com/b9a5b42442.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="registro">
@@ -13,15 +14,22 @@
             <a href="index.html"> <i class="fa-solid fa-arrow-left-long"></i></a>
             <h1>REGISTRO FARMADSO</h1>
         </header>
+        <section id="container">
+        <div class="email">
+            <h4>Email</h4>
+            <input type="email" name="" id="emai" placeholder="correo electronico">
+        </div>
+
         <div id="dataname">
             <div class="name">
                 <h4>nombre </h4>
+                
                 <input type="text" ">
                
             </div>
             <div class="name">
                 <h4>apellidos</h4>
-                <input type="text" id="nameee" >
+                <input type="text"  >
             </div>
         </div>
         <div id="document">
@@ -37,11 +45,11 @@
 
                 </select>
                 <div class="numberdoc">
-                    <input type="text" class="numberdoc">
+                    <input type="text" class="numberdoc"placeholder="Numero de documento">
                 </div>
             </div>
         </div>
-        <article class="datedata">
+        <div class="datedata">
             <div id="date">
                 <h4>fecha de expedicion</h4>
                 <input type="date" class="fecha">
@@ -52,15 +60,31 @@
                 <input type="date" class="fecha">
 
             </div>
-        </article>
+        </div>
         <div id="eps">
             <h4>eps que pertenece</h4>
             <select name="eps" id="typeeps" placeholder="">
-                <option value="">sanitas</option>
-                <option value="">asmet salud</option>
-                <option value="">cafesalud</option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="">Eps Sanitas</option>
+                <option value="">Asmet Salud</option>
+                <option value="">Cafesalud</option>
+                <option value="">Coomeva</option>
+                <option value="">Compensar</option>
+                <option value="">Cafam EPS</option>
+                <option value="">COMFANDI</option>
+                <option value="">Capital Salud EPS</option>
+                <option value="">Colsubsidio</option>
+                <option value="">Capresoca</option>
+                <option value="">Aliansalud</option>
+                <option value="">Coosalud</option>
+                <option value="">EPS Sura</option>
+                <option value="">Famisanar</option>
+                <option value="">Medimás</option>
+                <option value="">Mutual SER</option>
+                <option value="">Nueva EPS</option>
+                <option value="">Salud Total</option>
+                <option value="">1Savia Salud EPS</option>
+                <option value="">SISBEN IV</option>
+
             </select>
             <p id="active">  
                 <legend>si no pertenece a ninguna EPS marque esta casilla</legend>
@@ -74,10 +98,10 @@
 
         <div class="registrobutton">
             <button type="button" id="button">
-                <h3>register</h3>
+                <h3>registrarse</h3>
             </button>
         </div>
-
+    </section>
     </main>
     <script src="iconos.js"></script>
 </body>
