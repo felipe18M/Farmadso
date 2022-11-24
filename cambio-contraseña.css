@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    border: #22a374 1px solid;
+    border: #33a892 1px solid;
     text-transform: capitalize;
     gap: 1em;
 
@@ -33,7 +33,7 @@ header{
 
 }
 hr{
-    background-color: #22a374;
+    background-color: #33a892;
     height: 1px;
     border: transparent;
 
@@ -41,7 +41,7 @@ hr{
 
 #icon{
     display: flex;
-    color: #22a374;
+    color: #33a892;
     position: absolute;
     margin-top: 1em;
     margin-left: 0.5em;
@@ -61,18 +61,18 @@ input[type="password"]{
     height: 3rem;
     padding-left: 2em;
     background-color: transparent;
-    border: #22a374 1px solid;
-    color: #22a374;
+    border: #33a892 1px solid;
+    color: #33a892;
     text-transform: lowercase;
     
 }
 input:hover{
-    color: #22a374;
+    color: #33a892;
   
     
 }
 input::placeholder{
-    color: #22a374;
+    color: #33a892;
 }
 
 
@@ -98,14 +98,14 @@ button{
     align-items: center;
     color: #fff;
     border-radius: 1rem;
-    background-color: #22a374;
+    background-color: ##6d93c9;
     flex: 1;
     padding: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
 }
 .buttonconfi:hover{
-     color: #22a374;
+     color: #6d93c9;
      background-color: #fff;
-     border: #22a374 1px solid;
+     border: #6d93c9 1px solid;
 }
