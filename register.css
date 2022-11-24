@@ -37,6 +37,8 @@ input{
     align-items: center;
     font-weight: bold;
     position: relative;
+    margin-bottom: 2em;
+    
 }
 .fa-arrow-left-long{
     position: absolute;
