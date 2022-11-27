@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cambio-contraseña.css">
+    <link rel="stylesheet" href="cambio.css">
     <script src="https://kit.fontawesome.com/b9a5b42442.js" crossorigin="anonymous"></script>
     <title>Cambio contraseña</title>
+
 </head>
 <body>
 
@@ -16,13 +17,19 @@
         </header>
     <hr>
     
-    <p>Elige una contraseña segura y no la utilices en otras cuentas.</p>
+    <section class="password">
+        
+          <p>Elige una contraseña segura y no la utilices en otras cuentas.</p>
+        <div class="pass">
+          <i class="fa-solid fa-lock" id="icon"></i><input type="password" placeholder="contraseña nueva" class="pass">
+        </div>
+        
+          <p>Utiliza al menos 8 caracteres. No uses una contraseña de otro sitio ni un nombre demasiado obvio, como el de tu mascota. </p>
+        <div class="newpass"> 
+          <i class="fa-solid fa-lock" id="icon2"></i><input type="password" placeholder="confirmar nueva contraseña" class="newpass">
+        </div>
+    </section>
     <article class="buttons">
-        <i class="fa-solid fa-lock" id="icon"></i><input type="password" placeholder="contraseña nueva">
-
-    <p>Utiliza al menos 8 caracteres. No uses una contraseña de otro sitio ni un nombre demasiado obvio, como el de tu mascota. </p>
-
-    <i class="fa-solid fa-lock" id="icon"></i><input type="password" placeholder="confirmar nueva contraseña">
         <button>
              <a href="index.html" class="buttonconfi">cambiar contraseña</a>
         </button>
