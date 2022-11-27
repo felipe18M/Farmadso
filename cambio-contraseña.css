@@ -1,25 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: center;
     align-items: center;
+    
     font-family: sans-serif;
     padding: 1rem;
-    overflow: hidden;
+    
 }
 .container{
     display: flex;
     flex-direction: column;
     padding: 1rem;
     border: #33a892 1px solid;
-    text-transform: capitalize;
+    
     gap: 1em;
+    position: relative;
+    top: 7em;
+    
 
 }
 
@@ -27,7 +31,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
+    height: 5rem;
+    text-transform: uppercase;
+    text-align: center;
    
     
 
@@ -38,24 +44,32 @@ hr{
     border: transparent;
 
 }
-
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.pass{
+    display: flex;
+    flex: 1;
+}
 #icon{
     display: flex;
     color: #33a892;
     position: absolute;
-    margin-top: 1em;
+    margin-top: .8em;
     margin-left: 0.5em;
     line-height: normal;
     font-size: 1.1rem;
       
 }
 #icon:hover{
-    color: lightskyblue;
+    color: #6d93c9;
 }
 
 input[type="password"]{
     display: flex;
-   
+    
     font-size: 1.1em;
     outline: none;
     height: 3rem;
@@ -66,13 +80,33 @@ input[type="password"]{
     text-transform: lowercase;
     
 }
-input:hover{
+
+.newpass{
+    display: flex;
+    flex: 1;
+}
+
+#icon2{
+    display: flex;
     color: #33a892;
-  
+    position: absolute;
     
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+    line-height: normal;
+    font-size: 1.1rem;
+      
+}
+#icon2:hover{
+    color: #6d93c9;
+}
+  
+input:hover{
+    color: #33a892;  
 }
 input::placeholder{
     color: #33a892;
+    
 }
 
 
